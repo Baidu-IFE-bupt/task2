@@ -1,0 +1,20 @@
+html,body{
+    height: 100%;
+}
+.tree_cover{
+    display: flex;
+}
+#root div,#root{
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    border: 1px solid;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+.order_btn{
+    text-align: left;
+    margin: 20px;
+}

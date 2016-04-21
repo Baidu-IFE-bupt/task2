@@ -1,0 +1,22 @@
+html,body{
+    height: 100%;
+}
+#root{
+    width: 600px;
+    height:150px;
+    border: 1px solid;
+    margin: 0 auto;
+}
+#root div{
+    width: calc(50% - 22.5px);
+    height: calc(100% - 30px);
+    margin: 15px 0 0 15px;
+    float: left;
+    border: 1px solid;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+.order_btn{
+    text-align: center;
+    margin: 20px;
+}

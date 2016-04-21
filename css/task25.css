@@ -1,0 +1,87 @@
+html,body{
+    height: 100%;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: "Microsoft YaHei UI";
+}
+.tree_cover{
+    /*display: flex;*/
+}
+#root div,#root{
+    /*display: flex;*/
+    /*flex-grow: 1;*/
+    /*flex-direction: column;*/
+    /*justify-content: space-around;*/
+    margin: 10px 0 0 10px;
+    /*border: 1px solid;*/
+    border-right: 0;
+    box-sizing: border-box;
+    background-color: #fff;
+    min-width: 150px;
+    /*display: block;*/
+}
+#root{
+    /*border-right:1px solid;*/
+}
+.order_btn{
+    text-align: left;
+    margin: 20px;
+}
+.arrow{
+    width: 0;
+    height: 0;
+    cursor: pointer;
+    display: inline-flex;
+    margin: 7px;
+}
+.arrow_down{
+    border-top:10px solid #239098;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+}
+.arrow_right{
+    border-left:10px solid #239098;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+}
+.icon{
+    width: 18px;
+    height: 18px;
+    background-image: url("../img/zTree.png");
+    display: inline-block;
+}
+.folder_open {
+    background-position: 52px -14px;
+}
+.folder_close {
+    background-position: 52px 2px;
+}
+.close{
+    background-position: 86px -53px;
+}
+.open{
+    background-position: 68px -53px;
+}
+.line{
+    background: url('../img/line_conn.gif') 0px 0px repeat-y;
+    background-color: #fff;
+}
+ul{
+    padding-left: 24px;
+    background-color: #fff;
+}
+li{
+    list-style: none;
+}
+.lowest{
+    background-position: 52px -31px;
+}
+.line_first{
+    background-position: 104px 0px;
+}
+.line_middle{
+    background-position: 104px -19px;
+}
+.line_last {
+    background-position: 104px -37px;
+}

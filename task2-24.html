@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/task24.css">
+    <title>Task24</title>
+</head>
+<body>
+<div class="tree_cover">
+    <div id="root">
+        <div>1
+            <div>2
+                <div>3
+                    <div>4</div>
+                </div>
+                <div>5</div>
+                <div>6</div>
+            </div>
+            <div>7
+                <div>8</div>
+                <div>9</div>
+            </div>
+        </div>
+        <div>10
+            <div>11
+                <div>12
+                    <div>13</div>
+                    <div>14</div>
+                    <div>15</div>
+                </div>
+                <div>16</div>
+            </div>
+            <div>17
+                <div>18</div>
+            </div>
+            <div>19
+                <div>20</div>
+            </div>
+        </div>
+        <div>21
+            <div>22
+                <div>23</div>
+                <div>24</div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="order_btn">
+    请输入时间间隔
+    <input type="text" id="interval" value="500">
+    <input type="button" value="深度优先遍历" onclick="order('depthFirst',false)">
+    <input type="button" value="广度优先遍历" onclick="order('breadthFirst',false)">
+    <div/>
+    请输入搜索内容
+    <input type="text" id="search" value="">
+    <input type="button" value="深度优先遍历" onclick="order('depthFirst',true)">
+    <input type="button" value="广度优先遍历" onclick="order('breadthFirst',true)">
+    <div/>
+    请输入添加内容
+    <input type="text" id="text" value="">
+    <input type="button" value="添加节点" onclick="operateNode('add')">
+    <input type="button" value="删除节点" onclick="operateNode('del')">
+    <input type="button" value="重置选择" onclick="resetColor()">
+</div>
+<script src="js/task24.js"></script>
+</body>
+</html>

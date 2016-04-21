@@ -1,0 +1,33 @@
+.tab-menu{
+    margin: 0 74px;
+}
+.select-box{
+  margin: 10px 0;
+}
+select{
+    height: 28px;
+    line-height: 28px;
+}
+.parent{
+    width: 150px;
+}
+.child{
+    width: 200px;
+}
+.frm-label{
+    display: inline-block;
+    width: 70px;
+    text-align: right;
+}
+.input-box{
+    margin: 10px 0;
+    display: none;
+}
+.frm-input{
+    width: 250px;
+    height: 28px;
+    line-height: 28px;
+    border-radius: 8px;
+    outline: 0;
+    border: 1px solid grey;
+}

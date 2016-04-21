@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单验证</title>
+    <link href="css/form_verify_3.css" rel="stylesheet"/>
+</head>
+<body>
+
+    <div class="frm-box tab-menu">
+        <input type="radio" name="type" class="cate-type" checked="checked">在校生
+        <input type="radio" name="type" class="cate-type">非在校生
+    </div>
+    <div class="frm-box tab-box">
+        <div class="select-box">
+            <label class="frm-label">学校</label>
+            <select class="parent">
+                <option value="1">请选择</option>
+                <option value="2">北京</option>
+                <option value="3">上海</option>
+            </select>
+            <select class="child">
+                <option>请选择</option>
+            </select>
+        </div>
+        <div class="input-box">
+            <label class="frm-label">就业单位</label>
+            <input  type="text" class="frm-input" name="employ">
+        </div>
+    </div>
+<!--</form>-->
+<script src="js/jquery-1.10.1.min.js"></script>
+<script src="js/form_verify_3.js"></script>
+</body>
+</html>

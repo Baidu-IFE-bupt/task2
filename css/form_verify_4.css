@@ -1,0 +1,80 @@
+body {
+    font-size: 25px;
+    font-family: 'Microsoft yahei';
+}
+
+input {
+    border: 2px solid grey;
+    font-size: 25px;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+.form-container {
+    width: 700px;
+    margin: auto;
+    padding: 100px;
+}
+
+.form-container ul {
+    list-style: none;
+}
+
+.form-container li {
+    margin: 20px 0;
+}
+
+.form-container span {
+    width: 100px;
+    height: 50px;
+    padding-right: 10px;
+    float: left;
+}
+
+.form-container input {
+    width: 500px;
+    height: 50px;
+}
+
+.form-container .inputFocus {
+    border: 2px solid grey;
+}
+
+.form-container .correctInput {
+    border: 2px solid green;
+}
+
+.form-container .wrongInput {
+    border: 2px solid red;
+}
+
+.form-container button {
+    display: inline-block;
+    width: 80px;
+    height: 50px;
+    float: right;
+    margin-right: 78px;
+    line-height: 50px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    background: #2f79ba;
+}
+
+.status {
+    margin: 0 105px;
+    color: grey;
+    transition: all 0.3s ease-in-out;
+}
+
+.correctSta {
+    color:green;
+}
+
+.wrongSta {
+    color: red;
+}

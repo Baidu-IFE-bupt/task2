@@ -1,0 +1,54 @@
+.l{
+    float: left;
+
+}
+.frm-label{
+    margin-right: 20px;
+    font-size: 20px;
+    line-height: 34px;
+}
+#frm-input{
+    width: 300px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid grey;
+    border-radius: 8px;
+}
+#frm-input:focus{
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+}
+button:focus{
+    outline: 0;
+}
+.ver-btn{
+    background: rgb(26, 56, 152);
+    color: #fff;
+    width: 100px;
+    height: 35px;
+    line-height: 32px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+
+}
+.frm-tips{
+    margin-left: 60px;
+}
+.col-grey{
+    color: grey;
+}
+.col-red{
+    color: red;
+}
+.col-green{
+    color: green
+}
+.border-grey{
+    border:1px solid gray !important;
+}
+.border-red{
+    border:1px solid red !important;
+}
+.border-green{
+    border:1px solid green !important;
+}

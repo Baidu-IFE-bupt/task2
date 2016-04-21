@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/task25.css">
+    <title>Task25</title>
+</head>
+<body>
+<div class="tree_cover">
+    <ul id="root">
+        <li>
+            <span class="icon open"></span>
+            <span class="icon folder_open"></span>
+            <span class="data">1</span>
+            <ul class="line">
+                <li>
+                    <span class="icon open"></span>
+                    <span class="icon folder_open"></span>
+                    <span class="data">2</span>
+                    <ul class="line">
+                        <li>
+                            <span class="icon open"></span>
+                            <span class="icon folder_open"></span>
+                            <span class="data">3</span>
+                            <ul class="line">
+                                <li><span class="icon line_last"></span><span class="icon lowest"></span><span class="data">4</span></li>
+                            </ul>
+                        </li>
+                        <li><span class="icon line_middle"></span><span class="icon lowest"></span><span class="data">5</span></li>
+                        <li><span class="icon line_last"></span><span class="icon lowest"></span><span class="data">6</span></li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="icon open"></span>
+                    <span class="icon folder_open"></span>
+                    <span class="data">7</span>
+                    <ul>
+                        <li><span class="icon line_middle"></span><span class="icon lowest"></span><span class="data">8</span></li>
+                        <li><span class="icon line_last"></span><span class="icon lowest"></span><span class="data">9</span></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <span class="icon open"></span>
+            <span class="icon folder_open"></span>
+            <span class="data">10</span>
+            <ul  class="line">
+                <li>
+                    <span class="icon open"></span>
+                    <span class="icon folder_open"></span>
+                    <span class="data">11</span>
+                    <ul class="line">
+                        <li>
+                            <span class="icon open"></span>
+                            <span class="icon folder_open"></span>
+                            <span class="data">12</span>
+                            <ul class="line">
+                                <li><span class="icon line_middle"></span><span class="icon lowest"></span><span class="data">13</span></li>
+                                <li><span class="icon line_middle"></span><span class="icon lowest"></span><span class="data">14</span></li>
+                                <li><span class="icon line_last"></span><span class="icon lowest"></span><span class="data">15</span></li>
+                            </ul>
+                        </li>
+                        <li><span class="icon line_last"></span><span class="icon lowest"></span><span class="data">16</span></li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="icon open"></span>
+                    <span class="icon folder_open"></span>
+                    <span class="data">17</span>
+                    <ul class="line">
+                        <li><span class="icon line_last"></span><span class="icon lowest"></span><span class="data">18</span></li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="icon open"></span>
+                    <span class="icon folder_open"></span>
+                    <span class="data">19</span>
+                    <ul>
+                        <li><span class="icon line_last"></span><span class="icon lowest"></span><span class="data">20</span></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <span class="icon open"></span>
+            <span class="icon folder_open"></span>
+            <span class="data">21</span>
+            <ul>
+                <li>
+                    <span class="icon open"></span>
+                    <span class="icon folder_open"></span>
+                    <span class="data">22</span>
+                    <ul>
+                        <li><span class="icon line_middle"></span><span class="icon lowest"></span><span class="data">23</span></li>
+                        <li><span class="icon line_last"></span><span class="icon lowest"></span><span class="data">24</span></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>
+<div class="order_btn">
+    请输入时间间隔
+    <input type="text" id="interval" value="50">
+    <input type="button" value="深度优先遍历" onclick="order('depthFirst')">
+    <input type="button" value="广度优先遍历" onclick="order('breadthFirst')">
+    <div/>
+    请输入搜索内容
+    <input type="text" id="search" value="">
+    <input type="button" value="深度优先遍历" onclick="order('depthFirst',true)">
+    <input type="button" value="广度优先遍历" onclick="order('breadthFirst',true)">
+    <div/>
+    请输入添加内容
+    <input type="text" id="text" value="">
+    <input type="button" value="添加节点" onclick="operateNode('add')">
+    <input type="button" value="删除节点" onclick="operateNode('del')">
+    <input type="button" value="重置选择" onclick="resetColor()">
+</div>
+<script src="js/task25.js"></script>
+</body>
+</html>

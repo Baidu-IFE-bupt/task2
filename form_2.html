@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单验证</title>
+    <link href="css/form_verify_2.css" rel="stylesheet"/>
+</head>
+<body>
+<form action="" method="post">
+    <!----------名称-------------->
+    <div class="form-box">
+        <label for="name" class="l frm-label">名称</label>
+        <div>
+            <input type="text" id="name" name="name" class="frm-input"/>
+            <p class="frm-tips col-grey" class="tips">必填，长度为4-16字符</p>
+        </div>
+    </div>
+    <!----------密码-------------->
+    <div class="form-box">
+        <label for="password" class="l frm-label">密码</label>
+        <div>
+            <input type="password" name="password" id="password" class="frm-input"/>
+            <p class="frm-tips col-grey" >必填，长度为6-20字符</p>
+        </div>
+    </div>
+    <!----------密码确认-------------->
+    <div class="form-box">
+        <label for="password_repeat" class="l frm-label">密码确认</label>
+        <div>
+            <input type="password" name="password_repeat" id="password_repeat" class="frm-input"/>
+            <p class="frm-tips col-grey" >请再次输入相同密码</p>
+        </div>
+    </div>
+    <!----------邮箱-------------->
+    <div class="form-box">
+        <label for="mailbox" class="l frm-label">邮箱</label>
+        <div>
+            <input type="text" name="mailbox" id="mailbox" class="frm-input"/>
+            <p class="frm-tips col-grey" >必填，请输入正确的邮箱格式</p>
+        </div>
+    </div>
+    <!----------手机-------------->
+    <div class="form-box">
+        <label for="phone" class="l frm-label">手机</label>
+        <div>
+            <input type="text" name="phone" id="phone" class="frm-input"/>
+            <p class="frm-tips col-grey" >必填，请输入正确的手机格式</p>
+        </div>
+    </div>
+    <!---------验证按钮---------->
+    <a class="submit">提交</a>
+</form>
+<script src="js/jquery-1.10.1.min.js"></script>
+<script src="js/form_verify_2.js"></script>
+</body>
+</html>
